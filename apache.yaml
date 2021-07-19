@@ -1,0 +1,5 @@
+---
+ - hosts: 192.168.56.2
+   tasks:
+    - name: apache
+      apt: name=apache state=present
